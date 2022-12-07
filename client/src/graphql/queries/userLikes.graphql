@@ -1,0 +1,10 @@
+query UserLikes {
+	userLikes {
+		id
+		description
+		title
+		image
+		price
+		tags
+	}
+}

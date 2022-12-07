@@ -1,0 +1,5 @@
+mutation CreatePaymentIntent($planAmount: Int!) {
+	createPaymentIntent(planAmount: $planAmount) {
+		userSecret
+	}
+}

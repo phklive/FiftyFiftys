@@ -1,0 +1,5 @@
+mutation UnLikeProduct($productId: String!) {
+	unLikeProduct(productId: $productId) {
+		id
+	}
+}

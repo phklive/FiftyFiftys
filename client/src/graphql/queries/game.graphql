@@ -1,0 +1,21 @@
+query Game($gameId: String!) {
+	game(gameId: $gameId) {
+		id
+		product {
+			id
+			title
+			description
+			image
+			price
+			tags
+		}
+		players {
+			id
+			name
+		}
+		slots
+		winner
+		started
+		ended
+	}
+}

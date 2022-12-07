@@ -1,0 +1,22 @@
+query UserGames {
+	userGames {
+		id
+		slots
+		winner
+		started
+		ended
+		product {
+			id
+			title
+			description
+			image
+			price
+			tags
+		}
+		players {
+			id
+			name
+			email
+		}
+	}
+}

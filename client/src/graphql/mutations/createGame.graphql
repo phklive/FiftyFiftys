@@ -1,0 +1,3 @@
+mutation CreateGame($productId: String!, $slots: Int!) {
+	createGame(productId: $productId, slots: $slots)
+}
